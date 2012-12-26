@@ -128,7 +128,8 @@ module Cucumber
         end
 
         def colors_enabled?
-          Cucumber::Term::ANSIColor.coloring?
+          # Cucumber::Term::ANSIColor.coloring?
+          false
         end
     end
   end
